@@ -2,14 +2,14 @@
 <?php
   $BDProductos = array( 
     array(1, 2, 3, 4, 5),                                       //El ID
-    array("Blusa", "Lentes", "Playera", "Pantalón", "Vestido"), //La Descripción
-    array(100, 350, 200, 420, 250),                             //El Precio
+    array("Blusa", "Lentes", "Playera", "Pantalón", "Vestido", "Tenis", "Sudadera"), //La Descripción
+    array(100, 350, 200, 420, 250, 700, 300),                             //El Precio
     array("Dama", "Caballero", "Caballero", "Dama", "Dama"));   //Categoría
-  $iProductos = 5; //Indica el No. de Productos
+  $iProductos = 7; //Indica el No. de Productos
 
   $BDAlmacen = array( 
-    array(1, 2, 3, 4, 5), //El IDProducto
-    array(0,10, 5,15, 3)); //Las Existencias
+    array(1, 2, 3, 4, 5, 6, 7), //El IDProducto
+    array(0,10, 5,15, 3, 12, 8)); //Las Existencias
 
   $iAlmacen = 2; //El No. de existencias
   $BDVentas = array(
